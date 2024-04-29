@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.login-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 70px;
+    margin-right: 150px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#login{
+    margin-left: 20px;
+}
+
+.Logo{
+    justify-content: center;
+    display: flex;
+}
+
+.search-bar {
+    text-align: center;
+    margin-left: 80px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+.search-bar input[type="text"] {
+    height: 50px;
+    width: 430px;
+    padding: 13px;
+    padding-left: 33px;
+    border-radius: 50px; 
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
-  to {
-    transform: rotate(360deg);
+  
+.search-bar button {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 1rem 1.2rem;
+    margin: 1rem;
+    border: 0;
   }
-}
+
+  .my-col {
+    
+  }
