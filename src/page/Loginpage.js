@@ -23,6 +23,9 @@ const Loginpage = () => {
       <Button variant="success" type="submit">
         Login
       </Button>
+      <Button variant="outline-success" type="submit" className="login-join">
+        회원가입
+      </Button>
     </Form>
     </Container>
   )
